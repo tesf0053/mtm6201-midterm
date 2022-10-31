@@ -3,3 +3,14 @@
     --secondary--color:white;
     --base--color:#CF626D;
 }
+body{
+    background-color:rgb(255, 214, 214);
+}
+
+.grid{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    align-items: center;
+}
