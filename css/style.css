@@ -216,3 +216,21 @@ button:hover{
     }
  
 }
+@media screen and (max-width: 425px){
+    ul li{
+       padding: 7px; 
+    }
+    ul li a{
+        font-size: 10px;
+    }
+    .logo{
+        font-size: 17px;
+    }
+    .header-text{
+        height: 195px;
+    }
+    .heading-h1{
+        font-size: 30px;
+        text-transform:capitalize;
+    }
+}
