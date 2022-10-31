@@ -48,3 +48,39 @@ h1{
     text-transform: uppercase;
     color: black;
 }
+button{
+    width: 50%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #f7e4e5fd;
+    border-color: var(--base--color);
+    text-transform: uppercase;
+}
+button a{
+    font-size: 20px;
+    text-decoration: none;
+    color:  var(--base--color);
+    font-weight: bold; 
+}
+button:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 1338px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 650px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        align-items: center;
+    }
+    article{
+        text-align: center;
+    }
+}
