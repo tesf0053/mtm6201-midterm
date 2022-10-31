@@ -58,3 +58,33 @@ ul li a{
     background-color: var(--secondary--color);
     border-radius: 8px;
 }
+.heading{
+    display: inline-block;
+    position:absolute;
+    font-size: 30px;
+    color: var(--primary--color);
+    padding: 20px 45px 20px ;
+    line-height: 80px;
+    top: 35%;
+    margin: 20px 10px;
+    text-align: center;
+}
+button{
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #f7e4e5fd;
+    border-color: var(--primary--color);
+    transition: width 1000ms ease-in-out;
+}
+button span{
+    font-size: 20px;
+    text-decoration: none;
+    color:  var(--primary--color);
+    font-weight: bold; 
+   
+}
+button:hover{
+    width: 200px;
+}
