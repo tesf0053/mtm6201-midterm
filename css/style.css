@@ -7,3 +7,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-image: linear-gradient( rgba(253, 247, 247, 0.788),#d6a6a675),url(../images/Banner.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.header-text{
+    background-color:var(--primary--color);
+    padding: 15px 30px;
+    height: 100px;
+    color: var(--secondary--color);
+    position: relative;
+    z-index: 1;
+}
