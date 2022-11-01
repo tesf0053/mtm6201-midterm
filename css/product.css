@@ -1,3 +1,4 @@
+/* root color of the product page */
 :root{
     --primary--color:#db9fa5de;
     --secondary--color:white;
@@ -7,7 +8,7 @@
 body{
     background-color:rgb(255, 214, 214);
 }
-
+/* used grid layout to vertically place the layout */
 .grid{
     margin: 80px;
     display: grid;
@@ -16,7 +17,7 @@ body{
     align-items: center;
 }
 
-
+/* sytle fot the artcile page*/
 article{
     background-color:var(--primary--color);
     width: 300px;
@@ -28,6 +29,7 @@ article{
     transition: transform 0.5s;
     
 }
+/* when the muse hover the article image or content it grown  by 1.07 */
 article:hover{
     transform: scale(1.07);
 
@@ -69,7 +71,7 @@ button a{
 button:hover{
     cursor: pointer;
 }
-
+/* when the screen size max 1338 px the grid change 3 to 2 vertically */
 @media screen and (max-width: 1338px){
     .grid{
         display: grid;
@@ -78,6 +80,7 @@ button:hover{
         align-items: center;
     }
 }
+/* when the screen size max 1338 px the grid change 1 column*/
 @media screen and (max-width: 650px) {
     .grid{
         display: grid;
