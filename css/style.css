@@ -231,7 +231,7 @@ footer a{
     }
  
 }
-/* this is meadia query for max-size 450 and below and also this make the nav display change from inline-block to block because small screen size*//
+/* this is meadia query for max-size 450 and below and also this make the nav display change from inline-block to block because small screen size*/
 @media screen and (max-width: 425px){
     ul li{
        padding: 15px; 
