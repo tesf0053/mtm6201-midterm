@@ -1,33 +1,30 @@
+/* these are the main color used in the about page */
 :root{
     --primary--color: #ffc6c6;
     --secondary--color:#4b2828;
     --base-color: #CF626D;
 
 }
-/* rest code */
+/* make all default to rest, these are margin, padding and box-border*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* set the width and background color of the body */
 body{
     width: 100%;
     background-color: var(--primary--color);
 }
-/* this code make the content split screen or make it side by side */
+/* use the grid layout anfd this code style the image and the connet in split screen or sude by side */
 .row{
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
-.left{
-    overflow: hidden;   
-}
+/* This code set 10px padding to the class of "right" */
 .right{
-    display: flex;
-    align-items: center;
     padding: 10px;
 }
 .right p{
@@ -37,6 +34,7 @@ body{
     color: var(--secondary--color);
 
 }
+/* This code set the a,rign for top 20px and bottom 40px  */
 picture{
     margin: 20px 0 0 40px;
 }
