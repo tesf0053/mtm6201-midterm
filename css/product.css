@@ -8,7 +8,7 @@
 body{
     background-color:rgb(255, 214, 214);
 }
-/* used grid layout to vertically place the layout */
+/* used grid layout to vertically place the layout in three equal part and when the screen szie change it also change the lay out depends on the screen size.*/
 .grid{
     margin: 80px;
     display: grid;
@@ -17,7 +17,7 @@ body{
     align-items: center;
 }
 
-/* sytle fot the artcile page*/
+/* this code style the article page. all the article page contetn are similar so it style the image and the content widht and height and other property inside the article*/
 article{
     background-color:var(--primary--color);
     width: 300px;
@@ -29,11 +29,12 @@ article{
     transition: transform 0.5s;
     
 }
-/* when the muse hover the article image or content it grown  by 1.07 */
+/* when the mouse hover on the article, image and the content will grow by 1.07 */
 article:hover{
     transform: scale(1.07);
 
 }
+/* this is the style for h1 and make the color similar to the content of the home pge */
 h1{
     text-align: center;
     font-size: 3rem;
