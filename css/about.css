@@ -4,6 +4,7 @@
     --base-color: #CF626D;
 
 }
+/* rest code */
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@ body{
     width: 100%;
     background-color: var(--primary--color);
 }
+/* this code make the content split screen or make it side by side */
 .row{
     width: 90%;
     display: grid;
@@ -38,7 +40,7 @@ body{
 picture{
     margin: 20px 0 0 40px;
 }
--img{
+img{
     width: 100%;
 }
 .header-text h1{
@@ -77,7 +79,7 @@ picture{
     padding: 10px;
     text-decoration: underline;
 }
-
+/* this media screen for max 760 */
 @media screen and (max-width: 760px){  
     .row{
         width: 90%;
