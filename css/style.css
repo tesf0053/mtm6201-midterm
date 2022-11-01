@@ -29,7 +29,7 @@ body{
     position: relative;
     z-index: 1;
 }
-/* This code make the logo postion on the lef side with the size of 45px */
+/* This code make the logo postion on the left side with the size of 45px */
 .logo{
     float: left;
     font-size: 45px;
