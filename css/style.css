@@ -1,4 +1,4 @@
-/* This is the root color of the home page most of the page used */
+/* These are the root color of the home page and these two color are moslt used in the page */
 :root{
     --primary--color:#CF626D;
     --secondary--color:white;
@@ -13,14 +13,14 @@
 body{
     font-family: sans-serif;
 }
-/* used liner gradient to overlay the color on the background image */
+/* used linear gradient to overlay the color on the background image */
 .header{
     background-image: linear-gradient( rgba(253, 247, 247, 0.788),#d6a6a675),url(../images/Banner.jpg);
     height: 100vh;
     width: 100%;
     background-size: cover;
 }
-
+/* this code style the header backgound color, color and all the padding and position1 */
 .header-text{
     background-color:var(--primary--color);
     padding: 15px 30px;
@@ -29,7 +29,7 @@ body{
     position: relative;
     z-index: 1;
 }
-/* Style for logo */
+/* This code make the logo postion on the lef side with the size of 45px */
 .logo{
     float: left;
     font-size: 45px;
@@ -45,22 +45,25 @@ body{
     float: left;
     margin: 0 0 0 150px;   
 }
+/* used inline- block display property to the nav bar because it is web size screen */
 ul li {
     display: inline-block;
     padding: 25px;
     font-size: 20px;
 }
+/* used text-decoration properlty none to hidden the link style */
 ul li a{
     text-decoration: none;
     color:  var(--secondary--color);
     padding: 25px;
 }
-
+/* when the  mouse hover in the navigation this code  change the bacckground color and the color of the link */
 .navbar a:hover{
     color: var(--primary--color);
     background-color: var(--secondary--color);
     border-radius: 8px;
 }
+/* this code make the heading style postion, text transformation and other property */
 .heading{
     display: inline-block;
     position:absolute;
@@ -89,9 +92,11 @@ button span{
     font-weight: bold; 
    
 }
+/* when the hover on the botton it width increade from 170px to 200px with 1000ms and eas-in-out transition*/
 button:hover{
     width: 200px;
 }
+/* styling the footer text aliggn and width and height  */
 footer{
     display: inline-block;
     text-align: center;
@@ -109,7 +114,7 @@ footer a{
     text-decoration: none;
     color: black;
 }
-/* this is meadia query for max-size 1339*/
+/* this is meadia query for max-size 1339 and when the screen max size 1339 the below code will apply*/
 @media screen and (max-width: 1338px){
     .logo{
         float: left;
@@ -161,7 +166,7 @@ footer a{
         font-size: 50px;
     }
 }
-/* this is meadia query between 650px and 927px*/
+/* this is meadia query between 650px and 927px and the code make the nav bar display block because of the screen size*/
 @media screen and (min-width: 650px) and (max-width: 927px){
     ul li {
         display: block;
@@ -180,7 +185,7 @@ footer a{
     }
     
 }
-/* this is meadia query between 310px and 649px*/
+/* this is meadia query between 310px and 649px and also this make the nav display change from inline-block to block because small screen size*/
 @media screen and (min-width: 310px) and (max-width: 649px){
     ul li {
         display: block;
@@ -226,7 +231,7 @@ footer a{
     }
  
 }
-/* this is meadia query for max-size 450 and below*/
+/* this is meadia query for max-size 450 and below and also this make the nav display change from inline-block to block because small screen size*//
 @media screen and (max-width: 425px){
     ul li{
        padding: 15px; 
