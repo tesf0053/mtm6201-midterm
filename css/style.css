@@ -89,7 +89,7 @@ button span{
 button:hover{
     width: 200px;
 }
-.footer{
+footer{
     display: inline-block;
     text-align: center;
     background-color: var(--primary--color);
@@ -99,10 +99,10 @@ button:hover{
     line-height: 40px;
     padding: 50px;
 }
-.footer h3{
+footer h3{
     font-size: 25px;
 }
-.footer a{
+footer a{
     text-decoration: none;
     color: black;
 }
